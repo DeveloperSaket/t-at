@@ -247,7 +247,7 @@ color: white;
                         
 
 
-/* --------------------------------- Hero sEction  starts  
+/* --------------------------------- Header sEction  starts  
                         -------------------------------------------------------*/
 header {
 
@@ -261,47 +261,17 @@ header {
 }
 
 
-.main-hero-container {
+.main-container {
   height: 100%;
   width: 100%;
   display: flex;
   margin-top: #;
   position: relative;
   
-  /* background-color: aqua; */
 }
 
+/*----------------------- Header sEction  end  ----------------------------------------*/
 
-
-
-.main-hero-container h3 {
-  font-weight: lighter;
-}
-
-.
-/* right side of hero section  */
---------- Hero sEction  ends  
-                        -------------------------------------------------------*/
-
-/* --------------------------------- Work Section below hero section   starts  
-                        -------------------------------------------------------*/
-
-
-
-.fontawesome-style {
-  font-size: 2.3rem;
-  color: var(--primary-color);
-  width: 6rem;
-  height: 6rem;
-  border-radius: 50%;
-  background-color: var(--bgcolor);
-  display: grid;
-  place-items: center;
-  text-align: center;
-  margin: 2rem auto;
-}
-/* --------------------------------- Work Section below hero section   ends  
-                        -------------------------------------------------------*/
 
 /* --------------------------------- About Us Section STarts  
                         -------------------------------------------------------*/
@@ -311,6 +281,11 @@ header {
 
 /* --------------------------------- About Us Section ends  
                         -------------------------------------------------------*/
+
+
+
+
+
 /* --------------------------------- Services Section starts  
                         -------------------------------------------------------*/
 
@@ -333,6 +308,9 @@ header {
 
 /* --------------------------------- Services Section ends  
                         -------------------------------------------------------*/
+
+
+
 
 /* --------------------------------- TravelBooking Section Start  
                         -------------------------------------------------------*/
@@ -402,6 +380,7 @@ header {
 
 
 
+
 /* --------------------------------- Contact US Section starts  
                         -------------------------------------------------------*/
 
@@ -452,6 +431,8 @@ header {
 
 /* --------------------------------- Contact US Section ends  
                         -------------------------------------------------------*/
+
+
 
 /* --------------------------------- Packages US Section ends  
                         -------------------------------------------------------*/
@@ -566,70 +547,6 @@ header {
 /* --------------------------------- TravelBokking US Section ends  
                         -------------------------------------------------------*/
 
-
-
-
-/* --------------------------------- Footer  Section starts  
-                        -------------------------------------------------------*/
-
-footer {
-  padding: 5rem 0;
-  background-color: #182334;
-  color: #fff;
-}
-
-footer h2 {
-  color: #fff;
-}
-
-footer h5 {
-  list-style: none;
-  font-size: 1.5rem;
-  font-weight: lighter;
-  color: #fff;
-  cursor: pointer;
-  margin: 1rem 0;
-}
-
-.sub{
-  margin-top: -25px;
-}
-
-footer li:hover {
-  color: var(--primary-color);
-}
-
-footer .fontawesome-style {
-  font-size: 2.3rem;
-  color: var(--primary-color);
-  background-color: transparent;
-  width: 0rem;
-  height: 0rem;
-  margin: 2rem 0;
-  cursor: pointer;
-}
-
-footer .fontawesome-style:hover {
-  transition: all 1s;
-  animation: rotatefont 1s linear infinite alternate-reverse;
-  color: #fff;
-}
-
-@keyframes rotatefont {
-  0% {
-    transform: scale(0.6);
-  }
-  100% {
-    transform: scale(1.2);
-  }
-}
-
-footer .main-hero-para {
-  margin: 0;
-}
-
-/* --------------------------------- Footer  Section ends  
-                        -------------------------------------------------------*/
 
 
 

@@ -6,11 +6,11 @@ const Header = () => {
       <header>
         <section >
         
-        <div className="container-fluid main-hero-container " >
+        <div className="container-fluid main-container " >
         <img
                 src="./images/pic1.jpg"
                 alt="main"
-                className="img-fluid main-hero-img2"
+                className="img-fluid main-hero-pic1"
                 
                 />
                 
