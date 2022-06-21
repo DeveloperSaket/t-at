@@ -61,6 +61,9 @@ export function HomePage({
     <article>
       <Helmet>
         <title>Home Page</title>
+        {
+          // todo: title and meta can be added like this
+        }
         <meta
           name="description"
           content="A React.js Boilerplate application homepage"
