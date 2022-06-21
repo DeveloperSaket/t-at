@@ -1,0 +1,843 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
+
+
+/* custom colors  */
+
+* {
+ 
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --bgcolor: #f1f5fd;
+  --primary-color: #6f5de7;
+  --text-color: #828286;
+  --main-text-color: #333333;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+/* --------------------------------- navbar css style starts 
+                        -------------------------------------------------------*/
+
+.navbar-background {
+  background-color:#2f8f9c;
+  padding: 2rem 0;
+  height: 120px;
+  
+  
+}
+
+#nav-con{
+  float: left;
+  
+}
+
+
+.navbar li {
+  padding: 0 2rem;
+
+}
+
+.navbar li a {
+  font-size: 1.7rem;
+  font-weight: lighter;
+  position: relative;
+  color: white !important;
+  
+}
+
+.img{
+ width: 100%;
+ height: 300px;
+margin-left: -7.5px;
+}
+
+.txt{
+  text-align: center;
+  font-weight: 200; 
+  text-transform: capitalize;
+  margin-top: 100px;
+  color: white !important;
+}
+
+.three{
+  background-color: rgb(251, 252, 253);
+}
+.txt3{
+  color:#000;
+  text-align: center;
+  font-weight: 200; 
+  text-transform: capitalize;
+  margin-top: 100px;
+  font-size: 15px;
+  
+}
+
+.container{
+  width: 1000px;
+}
+
+.two{
+  background-color:#047d80;
+  position: relative;
+}
+
+.four{
+  background-color:#047d80;
+}
+
+#t5{
+  color: #000;
+  text-align: center;
+  font-size: 15px;
+}
+
+
+
+.five{
+  background-color: white;
+  height: 300px;
+}
+
+.six{
+  background-color:#047d80;
+}
+#six{
+  font-size: 25px;
+  margin-top: 80px;
+  color: white;
+}
+
+#last-para{
+  color: white;
+  font-size: 14px;
+}
+
+.pictxt{
+  margin-left: -1100px;
+  margin-top: 90px;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #2f8f9c;
+}
+
+#formp{
+display: flex;
+flex-direction: row;
+background-color: white;
+align-items: center;
+
+
+
+}
+
+.inpt{
+ margin-top:0px;
+ height: 30px;
+  width: 244px;
+  
+}
+
+.btn1{
+  width: 200px;
+  height: 30px;
+  margin-top: 35px;
+  margin-left: 10px;
+  background-color: #047d80;
+  color: white;
+
+  
+  
+}
+
+.num{
+  margin-top:;
+  height: 30px;
+  width: 90px;
+ margin-left: 10px;
+ 
+}
+
+#lbl{
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+#btn3{
+  margin-left: 60px;
+  height: 30px;
+  width: 100px;
+  background: none;
+  border: none;
+  font-size: 15px;
+  color: #2f8f9c;
+
+  
+ 
+}
+
+#btn4{
+width: 150px;
+font-size: 18px;
+background: none;
+border: none;
+color: white;
+}
+
+
+
+
+
+.navbar li a:hover {
+  color: rgb(4, 4, 4) !important;
+ 
+}
+
+.btn-style {
+  width: 12rem;
+  height: 4rem;
+  border-radius: 2rem;
+  color: #fff;
+  background-color: var(--primary-color);
+  text-transform: capitalize;
+  font-size: 1.6rem;
+}
+
+.btn-style:first-child {
+  margin-right: 2rem;
+}
+
+.btn-style:hover {
+  border: 0.1rem solid rgb(244, 240, 240);
+  background-color: transparent;
+  color: red;
+  box-shadow: 0 0.2rem 0.5rem #f1f1f6f6;
+}
+
+.btn-style-border {
+  border: 0.1rem solid var(--primary-color);
+  background-color: transparent;
+  color: var(--primary-color);
+  box-shadow: 0 0.2rem 0.5rem rgba(183, 171, 255, 0.5);
+}
+
+.btn-style-border:hover {
+  color: #fff;
+ 
+  text-transform: capitalize;
+}
+
+
+
+/* --------------------------------- Navbar ends  
+                        -------------------------------------------------------*/
+
+
+                        
+
+
+/* --------------------------------- Hero sEction  starts  
+                        -------------------------------------------------------*/
+header {
+
+  
+  background-image: url(./img/main.jpg);
+  
+  background-attachment: fixed;
+
+  min-height: 100vh;
+  width: 100%;
+}
+
+
+.main-hero-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  margin-top: #;
+  position: relative;
+  
+  /* background-color: aqua; */
+}
+
+
+
+
+.main-hero-container h3 {
+  font-weight: lighter;
+}
+
+.
+/* right side of hero section  */
+--------- Hero sEction  ends  
+                        -------------------------------------------------------*/
+
+/* --------------------------------- Work Section below hero section   starts  
+                        -------------------------------------------------------*/
+
+
+
+.fontawesome-style {
+  font-size: 2.3rem;
+  color: var(--primary-color);
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  background-color: var(--bgcolor);
+  display: grid;
+  place-items: center;
+  text-align: center;
+  margin: 2rem auto;
+}
+/* --------------------------------- Work Section below hero section   ends  
+                        -------------------------------------------------------*/
+
+/* --------------------------------- About Us Section STarts  
+                        -------------------------------------------------------*/
+
+
+
+
+/* --------------------------------- About Us Section ends  
+                        -------------------------------------------------------*/
+/* --------------------------------- Services Section starts  
+                        -------------------------------------------------------*/
+
+
+@media (min-width: 1400px) {
+  .service-container .col-xxl-4 {
+    flex: 0 0 auto;
+    width: 30% !important;
+    margin: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .service-container .col-lg-4 {
+    flex: 0 0 auto;
+    width: 30% !important;
+    margin: 2.5rem auto;
+  }
+}
+
+/* --------------------------------- Services Section ends  
+                        -------------------------------------------------------*/
+
+/* --------------------------------- TravelBooking Section Start  
+                        -------------------------------------------------------*/
+
+
+
+.main-div2{
+  background-image: url("./img/k4.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.main3-div{
+  background-color: white;
+  margin: 30px;
+ 
+}
+
+.ser{
+  padding: 1px;
+  width: 120px;
+}
+.minfo{
+  padding: 6px;
+  background-color: rgb(26, 76, 60);
+  width: 120px;
+  color: white;
+}
+.minfo:hover{
+  background-color: white;
+  border: 1px solid blue;
+  color:blue;
+}
+.fa {
+  padding: 15px;
+  font-size: 25px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30%;
+  color: rgba(62, 60, 60, 0.533);
+}
+.rio{
+ 
+}
+
+.desc{
+  margin-top: 60px;
+  
+}
+
+.frm{
+  margin-top: 30px;
+}
+
+#oroom{
+  color: #515656;
+  
+ 
+}
+
+
+
+
+/* --------------------------------- TravelBooking Section ends  
+                        -------------------------------------------------------*/
+
+
+
+
+/* --------------------------------- Contact US Section starts  
+                        -------------------------------------------------------*/
+
+          .c-div{
+            background-image: url("./img/k3.jpg");
+            background-attachment: fixed;
+          }
+
+          .t{
+            background-color: white;
+          }
+
+
+
+                        .fr1{
+                          width: 460px;
+                          padding: 8px;
+                      }
+                      .back-img{
+                        background-attachment: fixed;
+                      }
+                      .fr2{
+                          width: 460px;
+                          padding: 25px;
+                      }
+                      .bb{
+                          padding: 10px;
+                          border: 1px solid blue;
+                          background-color: rgb(117, 178, 113);
+                          color: blue;
+                      }
+                      .bb:hover{
+                          background-color: rgb(172, 172, 179);
+                          border: 1px solid red;
+                          color: rgb(232, 86, 14);
+                          
+                      }
+                      .mapp{
+                          width: 460px;
+                      }
+                      .rio{
+                        margin-top: 100px;
+                      }
+                      .mid2-div{
+                        background-attachment: fixed;
+                      }
+                      
+
+/* --------------------------------- Contact US Section ends  
+                        -------------------------------------------------------*/
+
+/* --------------------------------- Packages US Section ends  
+                        -------------------------------------------------------*/
+
+                        .back-img{
+                          position: relative;
+                      }
+                      .desc{
+                          position: absolute;
+                          text-align: center;
+                          top:16%;
+                          left:50%;
+                          transform: translate(-50%,-50%);
+                          color:white;
+                          font-weight: 500;
+                        
+                      }
+                      .form1 input[type="text"],input[type="number"],input[type="email"]{
+                          border-radius: 30px;
+                          padding: 7px;
+                      }
+                      #btt button{
+                          padding: 4px;
+                          background-color:  rgb(91, 226, 181);
+                          width: 220px;
+                          border: 1px solid blue;
+                          font-weight: 700;
+                      
+                      }
+                      
+                      #btt button:hover{
+                          background-color: rgb(131, 131, 228);
+                          border: 1px solid red;
+                          color: white;
+                      }
+                      .form0 input[type="date"]{
+                          border-radius: 30px;
+                          padding: 7px;
+                          width: 240px;
+                      }
+                       .form1 button{
+                          border-radius: 30px;
+                          padding: 8px;
+                          width: 210px;
+                          background-color: rgb(32, 32, 67);
+                          color: aliceblue;
+                      }
+                      .frm{
+                          margin-top: 7px;
+                      }
+                      hr{
+                        height: 4px;
+                        width:50px;
+                        background-color: rgb(211, 109, 26);
+                      }
+                      .veh{
+                          margin-top: 170px;
+                          
+                      }
+                      .sec-had{
+                          margin-bottom: 12px;
+                      }
+                      
+                      
+                      @media (max-width:600px){
+                          input[type="date"]{
+                              width: 420px;
+                          }
+                      
+                          .btt{
+                              text-align:center;
+                          }
+                          .veh{
+                              margin-top: 80px;
+                              
+                          }
+                      }
+
+/* --------------------------------- Packages US Section ends  
+                        -------------------------------------------------------*/
+
+
+
+/* --------------------------------- TravelBokking US Section ends  
+                        -------------------------------------------------------*/
+
+                        .ser{
+                          padding: 1px;
+                          width: 120px;
+                      }
+                      .minfo{
+                          padding: 6px;
+                          background-color: rgb(26, 76, 60);
+                          width: 120px;
+                          color: white;
+                      }
+                      .minfo:hover{
+                          background-color: white;
+                          border: 1px solid blue;
+                          color:blue;
+                      }
+                      .fa {
+                          padding: 15px;
+                          font-size: 25px;
+                          width: 50px;
+                          text-align: center;
+                          text-decoration: none;
+                          border-radius: 30%;
+                          color: rgba(62, 60, 60, 0.533);
+                        }
+                        
+/* --------------------------------- TravelBokking US Section ends  
+                        -------------------------------------------------------*/
+
+
+
+
+/* --------------------------------- Footer  Section starts  
+                        -------------------------------------------------------*/
+
+footer {
+  padding: 5rem 0;
+  background-color: #182334;
+  color: #fff;
+}
+
+footer h2 {
+  color: #fff;
+}
+
+footer h5 {
+  list-style: none;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: #fff;
+  cursor: pointer;
+  margin: 1rem 0;
+}
+
+.sub{
+  margin-top: -25px;
+}
+
+footer li:hover {
+  color: var(--primary-color);
+}
+
+footer .fontawesome-style {
+  font-size: 2.3rem;
+  color: var(--primary-color);
+  background-color: transparent;
+  width: 0rem;
+  height: 0rem;
+  margin: 2rem 0;
+  cursor: pointer;
+}
+
+footer .fontawesome-style:hover {
+  transition: all 1s;
+  animation: rotatefont 1s linear infinite alternate-reverse;
+  color: #fff;
+}
+
+@keyframes rotatefont {
+  0% {
+    transform: scale(0.6);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+footer .main-hero-para {
+  margin: 0;
+}
+
+/* --------------------------------- Footer  Section ends  
+                        -------------------------------------------------------*/
+
+
+
+/* --------------------------------- responsive media queries  
+                        -------------------------------------------------------*/
+@media (min-width: 1500px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1500px !important;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1400px;
+  }
+}
+
+
+
+
+
+/* <------ Footer -----> */
+
+.content1{
+  position: relative;
+  margin: 130px auto;
+  text-align: center;
+  padding: 0 20px;
+}
+.content1 .text{
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #202020;
+}
+.content1 .p{
+  font-size: 2.1875rem;
+  font-weight: 600;
+  color: #202020;
+}
+footer{
+ 
+  bottom: 0px;
+  width: 100%;
+  background: #e7e6e6;
+}
+.main-content{
+  display: flex;
+ 
+}
+.main-content .box{
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+.box h2{
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #000;
+}
+.box .content{
+  margin: 20px 0 0 0;
+  position: relative;
+}
+.box .content:before{
+  position: absolute;
+  content: '';
+  top: -10px;
+  height: 2px;
+  width: 100%;
+  background: #0f0f0f;
+}
+.box .content:after{
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 15%;
+  background: #f12020;
+  top: -10px;
+}
+.left .content p{
+  text-align: justify;
+  color: #000;
+  font-size: 12px;
+}
+.left .content .social{
+  margin: 50px 0 0 0;
+  
+}
+.left .content .social a{
+  padding: 0 2px;
+}
+.left .content .social a span{
+  height: 40px;
+  width: 40px;
+  background: #1a1a1a;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.left .content .social a span:hover{
+  background: #f12020;
+}
+.center .content .fas{
+  font-size: 1.4375rem;
+  background: #1a1a1a;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+  
+}
+.center .content .fas:hover{
+  background: #f12020;
+}
+.center .content .text{
+  font-size: 1.0625rem;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.center .content .phone{
+  margin: 15px 0;
+}
+.right form .text{
+  font-size: 1.0625rem;
+  margin-bottom: 2px;
+  color: #656565;
+}
+.right form .msg{
+  margin-top: 10px;
+}
+.right form input, .right form textarea{
+  width: 100%;
+  font-size: 1.0625rem;
+  background: #151515;
+  padding-left: 10px;
+  border: 1px solid #222222;
+}
+.right form input:focus,
+.right form textarea:focus{
+  outline-color: #3498db;
+}
+.right form input{
+  height: 35px;
+}
+.right form .btn{
+  margin-top: 10px;
+}
+.right form .btn button{
+  height: 40px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: #f12020;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: .3s;
+}
+.right form .btn button:hover{
+  background: #000;
+}
+.bottom center{
+  padding: 5px;
+  font-size: 0.9375rem;
+  background: #151515;
+}
+.bottom center span{
+  color: #656565;
+}
+.bottom center a{
+  color: #f12020;
+  text-decoration: none;
+}
+.bottom center a:hover{
+  text-decoration: underline;
+}
+
+a{
+  margin: 20px;
+  font-size: 28px;
+  color: #000;
+}
+
+@media screen and (max-width: 900px) {
+  footer{
+    position: relative;
+    bottom: 0px;
+  }
+  .main-content{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .main-content .box{
+    margin: 5px 0;
+  }
+}
