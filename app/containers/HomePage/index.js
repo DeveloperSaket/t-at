@@ -32,6 +32,7 @@ import { changeUsername } from './actions';
 import { makeSelectUsername } from './selectors';
 import reducer from './reducer';
 import saga from './saga';
+import './index.css';
 
 const key = 'home';
 
@@ -66,7 +67,7 @@ export function HomePage({
           content="A React.js Boilerplate application homepage"
         />
       </Helmet>
-      <div>
+      <div className="main-div">
         <CenteredSection>
           <H2>
             <FormattedMessage {...messages.startProjectHeader} />
