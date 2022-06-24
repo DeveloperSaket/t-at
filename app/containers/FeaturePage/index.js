@@ -18,6 +18,9 @@ export default function FeaturePage() {
     <div>
       <Helmet>
         <title>Feature Page</title>
+        {
+          // todo: title and meta can be added like this
+        }
         <meta
           name="description"
           content="Feature page of React.js Boilerplate application"

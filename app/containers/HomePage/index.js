@@ -49,6 +49,7 @@ export function HomePage({
   useEffect(() => {
     // When initial state username is not null, submit the form to load repos
     if (username && username.trim().length > 0) onSubmitForm();
+    // todo: pop-up launch after 40 sec [write logic here]
   }, []);
 
   const reposListProps = {
@@ -61,12 +62,18 @@ export function HomePage({
     <article>
       <Helmet>
         <title>Home Page</title>
+        {
+          // todo: title and meta can be added like this
+        }
         <meta
           name="description"
           content="A React.js Boilerplate application homepage"
         />
       </Helmet>
       <div>
+        {
+          // todo: Video in background : image in backgrond for page below 
+        }
         <CenteredSection>
           <H2>
             <FormattedMessage {...messages.startProjectHeader} />
