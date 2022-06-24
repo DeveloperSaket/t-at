@@ -14,13 +14,18 @@ import ListItem from './ListItem';
 import ListItemTitle from './ListItemTitle';
 
 export default function FeaturePage() {
+  document.title = 'Home | Feature page';
   return (
     <div>
       <Helmet>
-        <title>Feature Page</title>
         <meta
-          name="description"
-          content="Feature page of React.js Boilerplate application"
+          name="Description"
+          content="complete information for Meghalaya tour. Get all travel information related to meghalaya cities,
+          tourist attractions , tourist place, travel destinations,rental car , meghalaya food ,meghalaya calture, things to do & travel tips on where to visit, where to stay . Explore complet Meghalaya tours through Tourat.in"
+        />
+        <meta
+          name="Keywords"
+          content="Meghalaya tourism, Tourism guide, Travel in Meghalaya, Cab in meghalaya , Tourist attractions in meghalaya ,Explore Meghalaya nature ."
         />
       </Helmet>
       <H1>

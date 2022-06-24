@@ -43,6 +43,7 @@ export function HomePage({
   onSubmitForm,
   onChangeUsername,
 }) {
+  document.title = 'Home | Tour Meghalaya';
   useInjectReducer({ key, reducer });
   useInjectSaga({ key, saga });
 
@@ -60,10 +61,14 @@ export function HomePage({
   return (
     <article>
       <Helmet>
-        <title>Home Page</title>
         <meta
-          name="description"
-          content="A React.js Boilerplate application homepage"
+          name="Description"
+          content="complete information for Meghalaya tour. Get all travel information related to meghalaya cities,
+          tourist attractions , tourist place, travel destinations,rental car , meghalaya food ,meghalaya calture, things to do & travel tips on where to visit, where to stay . Explore complet Meghalaya tours through Tourat.in"
+        />
+        <meta
+          name="Keywords"
+          content="Meghalaya tourism, Tourism guide, Travel in Meghalaya, Cab in meghalaya , Tourist attractions in meghalaya ,Explore Meghalaya nature ."
         />
       </Helmet>
       <div>
