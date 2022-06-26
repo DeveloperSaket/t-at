@@ -50,6 +50,9 @@ export function HomePage({
     // When initial state username is not null, submit the form to load repos
     if (username && username.trim().length > 0) onSubmitForm();
     // todo: pop-up launch after 40 sec [write logic here]
+    setTimeout(() => {
+      alert('Login Now');
+    }, 40000);
   }, []);
 
   const reposListProps = {
@@ -72,7 +75,7 @@ export function HomePage({
       </Helmet>
       <div>
         {
-          // todo: Video in background : image in backgrond for page below 
+          // todo: Video in background : image in backgrond for page below
         }
         <CenteredSection>
           <H2>
