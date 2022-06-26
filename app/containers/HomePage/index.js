@@ -85,7 +85,7 @@ export function HomePage({
           {homepage.sec3.cards.map(v=><div>{v.text}</div>)}
         </div>
         <div style={{marginTop: '15px'}}>
-          {homepage.sec4.cards.map(v=><div>{v.text}</div>)}
+          {homepage.sec4.cards.map(v=><div>{v.text} - {v.days} - {v.oldCharges} - {v.charges}</div>)}
         </div>
         <div style={{marginTop: '15px'}}>
           {homepage.sec5.cards.map(v=><div>{v.text}</div>)}
