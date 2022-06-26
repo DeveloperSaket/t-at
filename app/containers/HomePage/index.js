@@ -40,9 +40,9 @@ const key = 'home';
 
 export function HomePage({
   username,
-  loading,
-  error,
-  repos,
+  // loading,
+  // error,
+  // repos,
   onSubmitForm,
   // onChangeUsername,
 }) {
@@ -78,8 +78,8 @@ export function HomePage({
           content="Meghalaya tourism, Tourism guide, Travel in Meghalaya, Cab in meghalaya , Tourist attractions in meghalaya ,Explore Meghalaya nature ."
         />
       </Helmet>
-      <ContentWrapper>
-        <div>
+      <div className='main-div'>
+        <ContentWrapper>
           {
             // todo: Video in background : image in backgrond for page below
           }
@@ -172,8 +172,8 @@ export function HomePage({
           </Form>
           <ReposList {...reposListProps} />
         </Section> */}
-        </div>
-      </ContentWrapper>
+        </ContentWrapper>
+      </div>
     </article>
   );
 }
