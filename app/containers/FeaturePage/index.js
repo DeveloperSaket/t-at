@@ -14,7 +14,7 @@ import ListItem from './ListItem';
 import ListItemTitle from './ListItemTitle';
 
 export default function FeaturePage() {
-  document.title = 'Home | Feature page';
+  
   return (
     <div>
       <Helmet>

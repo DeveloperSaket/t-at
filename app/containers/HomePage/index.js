@@ -43,13 +43,14 @@ export function HomePage({
   onSubmitForm,
   onChangeUsername,
 }) {
-  document.title = 'Home | Tour Meghalaya';
+  
   useInjectReducer({ key, reducer });
   useInjectSaga({ key, saga });
 
   useEffect(() => {
     // When initial state username is not null, submit the form to load repos
     if (username && username.trim().length > 0) onSubmitForm();
+    // todo: pop-up launch after 40 sec [write logic here]
   }, []);
 
   const reposListProps = {
@@ -72,6 +73,9 @@ export function HomePage({
         />
       </Helmet>
       <div>
+        {
+          // todo: Video in background : image in backgrond for page below 
+        }
         <CenteredSection>
           <H2>
             <FormattedMessage {...messages.startProjectHeader} />
