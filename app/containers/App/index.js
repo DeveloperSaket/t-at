@@ -35,7 +35,7 @@ export default function App() {
       >
         <meta name="description" content="A React.js Boilerplate application" />
       </Helmet>
-      <Header />
+      {/* <Header /> */}
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route path="/features" component={FeaturePage} />
