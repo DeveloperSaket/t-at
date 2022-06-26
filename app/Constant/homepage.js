@@ -4,10 +4,6 @@ export const homepage = {
     cards: [
       {
         img: '',
-        text: 'Recreational',
-      },
-      {
-        img: '',
         text: 'Environmental',
       },
       {
@@ -25,10 +21,6 @@ export const homepage = {
       {
         img: '',
         text: 'Adventure',
-      },
-      {
-        img: '',
-        text: 'Health',
       },
       {
         img: '',
