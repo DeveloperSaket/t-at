@@ -7,17 +7,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export function Card({propsData}) {
- 
-  return (
-    <div>
-     
-    </div>
-  );
+export function Card({ propsData }) {
+  return <div />;
 }
 
 Card.propTypes = {
-    propsData: PropTypes.string,
+  propsData: PropTypes.string,
 };
 
 export default Card;
