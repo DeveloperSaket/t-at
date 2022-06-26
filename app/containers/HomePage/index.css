@@ -1,3 +1,5 @@
 .main-div{
-    background-image:url("E:\ReactProject\t-at\app\images\main.jpg") ;
+    background-image: url("./img/main.jpg");
+    height: 400px;
+    
 }
