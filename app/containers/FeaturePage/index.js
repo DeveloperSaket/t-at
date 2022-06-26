@@ -14,7 +14,6 @@ import ListItem from './ListItem';
 import ListItemTitle from './ListItemTitle';
 
 export default function FeaturePage() {
-  
   return (
     <div>
       <Helmet>
