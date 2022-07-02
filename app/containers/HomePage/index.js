@@ -21,6 +21,7 @@ import {
 } from 'containers/App/selectors';
 import H2 from 'components/H2';
 import ReposList from 'components/ReposList';
+import s from './img/gif1.jpg';
 import AtPrefix from './AtPrefix';
 import CenteredSection from './CenteredSection';
 import Form from './Form';
@@ -50,11 +51,16 @@ export function HomePage({
 
   useEffect(() => {
     // When initial state username is not null, submit the form to load repos
+
     if (username && username.trim().length > 0) onSubmitForm();
     // todo: pop-up launch after 40 sec [write logic here]
     setTimeout(() => {
-      alert('Login Now');
-    }, 40000);
+      alert('Hello Sir');
+    }, 5000);
+
+    document.querySelector('.close').addEventListener('click', function() {
+      document.querySelector('.popup').style.display = 'none';
+    });
   }, []);
 
   const reposListProps = {
@@ -78,6 +84,26 @@ export function HomePage({
       <div className="main-div">
         {
           // todo: Video in background : image in backgrond for page below
+          <div className="popup">
+            <div className="contentBox">
+              <h1 className="close">X</h1>
+              <div className="imgBx">
+                <img src={s} />
+              </div>
+              <div className="content">
+                <div>
+                  <h1>Contect No...</h1>
+                  <h2>6203458015</h2>
+                  <p>
+                    Do you constantly find yourself getting frustrated with all
+                    the rigidly planned itineraries, when your soul yearns to
+                    wander on its own? Well, no more settling! Not if tourOn has
+                    a say about it.{' '}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         }
         <div>
           {homepage.sec1.cards.map(v => (
