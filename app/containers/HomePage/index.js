@@ -34,7 +34,7 @@ import { makeSelectUsername } from './selectors';
 import reducer from './reducer';
 import saga from './saga';
 import './index.css';
-import logo from './img/main.jpg';
+import img from './img/Adventure.jpg';
 
 import { homepage } from '../../Constant/homepage';
 
@@ -42,9 +42,9 @@ const key = 'home';
 
 export function HomePage({
   username,
-  loading,
-  error,
-  repos,
+  // loading,
+  // error,
+  // repos,
   onSubmitForm,
   // onChangeUsername,
 }) {
@@ -84,11 +84,9 @@ export function HomePage({
           {
             // todo: Video in background : image in backgrond for page below
           }
-          <div>
+          <div id='pic'>
             {homepage.sec1.cards.map(v => (
-              <div className="cimg">
-                <img src="./img/main.jpg" alt="" /> {v.text}{' '}
-              </div>
+              <div> <img src={require('./img/Envirmental.jpg')} alt="" className='cimg' /> {v.text}</div>
             ))}
           </div>
           <div style={{ marginTop: '15px' }}>
@@ -144,7 +142,7 @@ export function HomePage({
           <ReposList {...reposListProps} />
         </Section> */}
         </div>
-      </ContentWrapper>
+        </ContentWrapper>
     </article>
   );
 }
