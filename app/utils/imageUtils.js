@@ -2,7 +2,7 @@ import wildlife from "../images/wildlife.jpg";
 
 export function getImage(imgName) {
     switch (imgName) {
-        case 'labour':
+        case 'wildlife':
             return wildlife;
         case 'plumber':
             return wildlife;

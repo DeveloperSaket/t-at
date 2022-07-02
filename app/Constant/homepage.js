@@ -3,39 +3,39 @@ export const homepage = {
         // title: 'Type of tourism',
         cards: [
             {
-                img: '',
+                img: 'wildlife',
                 text: 'Environmental',
             },
             {
-                img: '',
+                img: 'wildlife',
                 text: 'Historical',
             },
             {
-                img: '',
+                img: 'wildlife',
                 text: 'Ethnic',
             },
             {
-                img: '',
+                img: 'wildlife',
                 text: 'Cultural',
             },
             {
-                img: '',
+                img: 'wildlife',
                 text: 'Adventure',
             },
             {
-                img: '',
+                img: 'wildlife',
                 text: 'Religious',
             },
             {
-                img: '',
+                img: 'wildlife',
                 text: 'Music',
             },
             {
-                img: '',
+                img: 'wildlife',
                 text: 'Village',
             },
             {
-                img: '',
+                img: 'wildlife',
                 text: 'Wildlife',
             },
         ]
@@ -44,15 +44,15 @@ export const homepage = {
         // title: 'Package type',
         cards: [
             {
-                img: '',
+                img: 'wildlife',
                 text: 'Honeymoon Tour',
             },
             {
-                img: '',
+                img: 'wildlife',
                 text: 'Planned Tour',
             },
             {
-                img: '',
+                img: 'wildlife',
                 text: 'Luxury Tour',
             },
         ]
@@ -61,19 +61,19 @@ export const homepage = {
         // title: '',
         cards: [
             {
-                img: '',
+                img: 'wildlife',
                 text: 'Solo',
             },
             {
-                img: '',
+                img: 'wildlife',
                 text: 'Family',
             },
             {
-                img: '',
+                img: 'wildlife',
                 text: 'Friends/Group',
             },
             {
-                img: '',
+                img: 'wildlife',
                 text: 'Couple',
             },
         ]
@@ -82,37 +82,42 @@ export const homepage = {
         title: 'Popular Packages',
         cards: [
             {
-                img: '',
+                img: 'wildlife',
                 text: 'Magical Meghalaya',
-                days: '7D/6N',
+                state: 'Assam',
+days: '7D/6N',
                 charges: 22500,
                 oldCharges: 32000,
             },
             {
-                img: '',
+                img: 'wildlife',
                 text: 'Cherapunji',
-                days: '3D/2N',
+                state: 'Assam',
+days: '3D/2N',
                 charges: 6534,
                 oldCharges: 2346
             },
             {
-                img: '',
+                img: 'wildlife',
                 text: 'Dawaki',
-                days: '2D/1N',
+                state: 'Assam',
+days: '2D/1N',
                 charges: 3900,
                 oldCharges: 6000,
             },
             {
-                img: '',
+                img: 'wildlife',
                 text: 'The Sikkim',
-                days: '6D/5N',
+                state: 'Assam',
+days: '6D/5N',
                 charges: 23900,
                 oldCharges: 31000,
             },
             {
-                img: '',
+                img: 'wildlife',
                 text: 'Arunachal Pradesh',
-                days: '7D/6N',
+                state: 'Assam',
+days: '7D/6N',
                 charges: 24900,
                 oldCharges: 36000,
             },
@@ -122,23 +127,23 @@ export const homepage = {
         // title: 'Type of tourism',
         cards: [
             {
-                img: '',
+                img: 'wildlife',
                 text: '',
             },
             {
-                img: '',
+                img: 'wildlife',
                 text: '',
             },
             {
-                img: '',
+                img: 'wildlife',
                 text: '',
             },
             {
-                img: '',
+                img: 'wildlife',
                 text: '',
             },
             {
-                img: '',
+                img: 'wildlife',
                 text: '',
             },
         ]
@@ -147,23 +152,23 @@ export const homepage = {
         // title: 'Type of tourism',
         cards: [
             {
-                img: '',
+                img: 'wildlife',
                 text: '',
             },
             {
-                img: '',
+                img: 'wildlife',
                 text: '',
             },
             {
-                img: '',
+                img: 'wildlife',
                 text: '',
             },
             {
-                img: '',
+                img: 'wildlife',
                 text: '',
             },
             {
-                img: '',
+                img: 'wildlife',
                 text: '',
             },
         ]

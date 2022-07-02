@@ -87,14 +87,7 @@ export function HomePage({
           {/* <ActionCard actionType='add' /> */}
           {/* <PackkageCard /> */}
           <div style={{ marginTop: '15px' }}>
-            {homepage.sec4.cards.map(v => <PackkageCard worker={{
-            name: 'Kajirangga',
-            image: 'labour',
-            days: '7D/6N',
-            oldCharges: 4300,
-            Price: 1750,
-            state: 'Assam'
-          }} />)}
+            {homepage.sec4.cards.map(v => <PackkageCard worker={v} />)}
         </div>
         {/*
          {v.text} - {v.days} - {v.oldCharges} - {v.charges}</div>)}
