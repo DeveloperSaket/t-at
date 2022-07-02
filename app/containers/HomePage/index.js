@@ -35,6 +35,8 @@ import reducer from './reducer';
 import saga from './saga';
 import './index.css';
 import { homepage } from '../../Constant/homepage';
+import PackkageCard from "../../components/Cards/Card";
+// import ActionCard from "../../components/Cards/ActionCard";
 
 const key = 'home';
 
@@ -82,6 +84,8 @@ export function HomePage({
           {
             // todo: Video in background : image in backgrond for page below 
           }
+          {/* <ActionCard actionType='add' /> */}
+          <PackkageCard />
           <div>
             {homepage.sec1.cards.map(v => <div>{v.text}</div>)}
           </div>
