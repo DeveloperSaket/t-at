@@ -66,6 +66,17 @@ export function HomePage({
   const ContentWrapper = styled.div`
     padding: 0 16px;
   `;
+  const SectionWrapper = styled.div`
+    width: 100%;
+    border: solid 2px wheat;
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 16px;
+`;
 
   return (
     <article>
@@ -81,17 +92,6 @@ export function HomePage({
       </Helmet>
       <div className='main-div'>
         <ContentWrapper>
-          {
-            // todo: Video in background : image in backgrond for page below 
-          }
-          {/* <ActionCard actionType='add' /> */}
-          {/* <PackkageCard /> */}
-          <div style={{ marginTop: '15px' }}>
-            {homepage.sec4.cards.map(v => <PackkageCard worker={v} />)}
-        </div>
-        {/*
-         {v.text} - {v.days} - {v.oldCharges} - {v.charges}</div>)}
-      */}
           <div>
             {homepage.sec1.cards.map(v => <div>{v.text}</div>)}
           </div>
@@ -104,6 +104,9 @@ export function HomePage({
           <div style={{ marginTop: '15px' }}>
             {homepage.sec4.cards.map(v => <div>{v.text} - {v.days} - {v.oldCharges} - {v.charges}</div>)}
           </div>
+          <SectionWrapper >
+            {homepage.sec4.cards.map(v => <PackkageCard worker={v} />)}
+          </SectionWrapper>
           <div style={{ marginTop: '15px' }}>
             {homepage.sec5.cards.map(v => <div>{v.text}</div>)}
           </div>

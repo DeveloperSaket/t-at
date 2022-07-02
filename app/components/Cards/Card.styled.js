@@ -7,13 +7,13 @@ export const Img = styled.img`
 `
 export const CardWrapper = styled.div`
     width: ${props => props.isCarousal ? '90%' : '9em'};
-    height: 10em;
-    max-width: 8em;
-    min-width: 5em;
+    height: 13em;
+    max-width: 10em;
+    min-width: 6em;
     border: solid 2px wheat;
     border-radius: 0.5em;
     position: relative;
-    margin: 5px;
+    margin: 10px;
 `;
 
 export const EmptyCardWrapper = styled(CardWrapper)`
