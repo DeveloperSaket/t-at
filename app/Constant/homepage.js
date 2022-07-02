@@ -1,12 +1,9 @@
-
 export const homepage = {
-
-
   sec1: {
     // title: 'Type of tourism',
     cards: [
       {
-        img:"",
+        img: '',
         text: 'Recreational',
       },
       {

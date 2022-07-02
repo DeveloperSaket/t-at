@@ -82,22 +82,36 @@ export function HomePage({
       <ContentWrapper>
         <div className="main-div">
           {
-            // todo: Video in background : image in backgrond for page below 
+            // todo: Video in background : image in backgrond for page below
           }
           <div>
-            {homepage.sec1.cards.map(v => <div className='cimg'><img src="./img/main.jpg" alt="" /> {v.text} </div>)}
+            {homepage.sec1.cards.map(v => (
+              <div className="cimg">
+                <img src="./img/main.jpg" alt="" /> {v.text}{' '}
+              </div>
+            ))}
           </div>
           <div style={{ marginTop: '15px' }}>
-            {homepage.sec2.cards.map(v => <div>{v.text}</div>)}
+            {homepage.sec2.cards.map(v => (
+              <div>{v.text}</div>
+            ))}
           </div>
           <div style={{ marginTop: '15px' }}>
-            {homepage.sec3.cards.map(v => <div>{v.text}</div>)}
+            {homepage.sec3.cards.map(v => (
+              <div>{v.text}</div>
+            ))}
           </div>
           <div style={{ marginTop: '15px' }}>
-            {homepage.sec4.cards.map(v => <div>{v.text} - {v.days} - {v.oldCharges} - {v.charges}</div>)}
+            {homepage.sec4.cards.map(v => (
+              <div>
+                {v.text} - {v.days} - {v.oldCharges} - {v.charges}
+              </div>
+            ))}
           </div>
           <div style={{ marginTop: '15px' }}>
-            {homepage.sec5.cards.map(v => <div>{v.text}</div>)}
+            {homepage.sec5.cards.map(v => (
+              <div>{v.text}</div>
+            ))}
           </div>
 
           {/* <CenteredSection>
