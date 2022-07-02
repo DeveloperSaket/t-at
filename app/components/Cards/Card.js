@@ -10,13 +10,13 @@ function WorkerCard({worker, isCarousal=false}) {
             {worker.name}
         </CardHeader>
         <CardDiscription>
-            {worker.village}, <br/> {worker.panchayat} 
+            {worker.days}, <br/> {worker.oldCharges} 
         </CardDiscription>
         <CardFooter>
-            {worker.contact}
+            {worker.Price}
         </CardFooter>
         <CardWaterMark>
-            {worker.skill}
+            {worker.state}
         </CardWaterMark>
     </CardWrapper>
     )
