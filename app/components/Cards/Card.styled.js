@@ -5,6 +5,11 @@ export const Img = styled.img`
     height: 50%;
     border-radius: 0.5em 0.5em 0 0;
 `
+export const ProfImg = styled.img`
+    width: 50%;
+    height: 50%;
+    border-radius:50%;
+`
 export const CardWrapper = styled.div`
     width: ${props => props.isCarousal ? '90%' : '9em'};
     height: 13em;
@@ -56,12 +61,12 @@ z-index: 2;
 transform:  rotateX(30);
 `
 export const CardFooter = styled.div`
-    color: rgb(160, 132, 54);
-    font-size: 0.65em;
-    font-weight: 600;
-    position: absolute;
-    bottom: 5px;
-    left: 50%;
-    transform: translateX(-50%);
+  color: rgb(160, 132, 54);
+  font-size: 0.65em;
+  font-weight: 600;
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
 
 `

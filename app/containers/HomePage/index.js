@@ -36,6 +36,7 @@ import saga from './saga';
 import './index.css';
 import { homepage } from '../../Constant/homepage';
 import PackkageCard from "../../components/Cards/Card";
+import ProfileCard from "../../components/Cards/ProfileCard";
 // import ActionCard from "../../components/Cards/ActionCard";
 
 const key = 'home';
@@ -104,6 +105,9 @@ export function HomePage({
           <div style={{ marginTop: '15px' }}>
             {homepage.sec4.cards.map(v => <div>{v.text} - {v.days} - {v.oldCharges} - {v.charges}</div>)}
           </div>
+          <SectionWrapper >
+            {homepage.sec1.cards.map(v => <ProfileCard profile={v} />)}
+          </SectionWrapper>
           <SectionWrapper >
             {homepage.sec4.cards.map(v => <PackkageCard worker={v} />)}
           </SectionWrapper>

@@ -7,7 +7,7 @@ function WorkerCard({ worker, isCarousal = false }) {
         <CardWrapper isCarousal={isCarousal}>
             <Img src={getImage(worker.img)} width='100%' />
             <CardHeader>
-                {worker.name}
+                {worker.text}
             </CardHeader>
             <CardDiscription>
                 {worker.days}, <br /> {worker.oldCharges}
