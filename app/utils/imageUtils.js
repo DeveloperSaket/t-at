@@ -1,4 +1,5 @@
 import wildlife from "../images/wildlife.jpg";
+import honeymoon from "../images/honeymoon.jpg";
 
 export function getImage(imgName) {
     switch (imgName) {
@@ -6,6 +7,8 @@ export function getImage(imgName) {
             return wildlife;
         case 'plumber':
             return wildlife;
+        case 'honeymoon':
+            return honeymoon;
 
         default:
             return null;

@@ -2,7 +2,7 @@ const homeData = {
     workers: [
         {
             name: 'aaa',
-            image: 'labour',
+            image: 'honeymoon',
             village: 'ifwei',
             panchayat: 'hjsjdc',
             contact: 964826479,

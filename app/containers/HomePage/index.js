@@ -102,9 +102,6 @@ export function HomePage({
           <div style={{ marginTop: '15px' }}>
             {homepage.sec3.cards.map(v => <div>{v.text}</div>)}
           </div>
-          <div style={{ marginTop: '15px' }}>
-            {homepage.sec4.cards.map(v => <div>{v.text} - {v.days} - {v.oldCharges} - {v.charges}</div>)}
-          </div>
           <SectionWrapper >
             {homepage.sec1.cards.map(v => <ProfileCard profile={v} />)}
           </SectionWrapper>

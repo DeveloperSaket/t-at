@@ -82,7 +82,7 @@ export const homepage = {
         title: 'Popular Packages',
         cards: [
             {
-                img: 'wildlife',
+                img: 'honeymoon',
                 text: 'Magical Meghalaya',
                 state: 'Meghalaya',
                 days: '7D/6N',
