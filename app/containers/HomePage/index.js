@@ -110,13 +110,13 @@ export function HomePage({
   return (
     <article>
       <Helmet>
-        <title>Home Page</title>
+        <title>Tour At Nort East India | Cab Services | Hotel Services | Tourism Website</title>
         {
           // todo: title and meta can be added like this
         }
         <meta
           name="description"
-          content="A React.js Boilerplate application homepage"
+          content="Tourism site for North East India. Cab facility in Meghalaya, Sikkim, Arunachal Pradesh, Assam, Manipur and Nagaland. Cab Services | Hotel Services."
         />
       </Helmet>
       <div>
