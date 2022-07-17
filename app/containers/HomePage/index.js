@@ -94,12 +94,15 @@ export function HomePage({
  `;
 
   const WrapToCenter = styled(SectionWrapper)`
-  // border: 0;
+  border: 0;
   justify-content: space-around;
+  font-weight: 700;
+  font-size: xxx-large;
   align-items: start;
+  color: rgb(128, 181, 242);
 `
   const WrapToBottom = styled(SectionWrapper)`
-  // border: 0;
+  border: 0;
   height: auto;
   justify-content: space-around;
   // align-items: end;
@@ -126,7 +129,7 @@ export function HomePage({
             </abbr>
           </WrapToTop>
           <WrapToCenter>
-            test
+            Tour at
           </WrapToCenter>
           <WrapToBottom >
             {homepage.sec1.cards.map(v => <ProfileCard profile={v} />)}
