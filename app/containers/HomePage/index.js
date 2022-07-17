@@ -75,8 +75,8 @@ export function HomePage({
 
   const SectionWrapper = styled.div`
   width: 100%;
-  border: solid 2px wheat;
-  border-radius: 0.5em;
+  // border: solid 2px wheat;
+  // border-radius: 0.5em;
   margin-bottom: 1em;
   display: flex;
   justify-content: center;
@@ -150,12 +150,12 @@ export function HomePage({
           {/* <WrapToBottom >
             {homepage.sec1.cards.map(v => <ProfileCard profile={v} />)}
           </WrapToBottom> */}
-          <SectionWrapper >
+          {/* <SectionWrapper >
             {homepage.sec4.cards.map(v => <PackkageCard worker={v} />)}
-          </SectionWrapper>
-          <div style={{ marginTop: '15px' }}>
+          </SectionWrapper> */}
+          {/* <div style={{ marginTop: '15px' }}>
             {homepage.sec5.cards.map(v => <div>{v.text}</div>)}
-          </div>
+          </div> */}
 
           {/* <CenteredSection>
       <div className="main-div">
