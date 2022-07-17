@@ -1,5 +1,5 @@
 import React from 'react';
-import { CircledCardWrapper, ProfileCardWrapper, ProfImg, CardHeader, CardDiscription, CardFooter, CardWaterMark } from "./Card.styled";
+import { ProfileCardWrapper, ProfImg, CardHeader } from "./Card.styled";
 import { getImage } from "../../Utils/imageUtils";
 
 function WorkerCard({ profile, isCarousal = false }) {

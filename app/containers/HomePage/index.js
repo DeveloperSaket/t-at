@@ -86,27 +86,23 @@ export function HomePage({
 `;
 
   const WrapToTop = styled.div`
-  // display: flex;
   background-color: rgb(128, 181, 242);
   color: antiquewhite;
   font-weight: 700;
   text-align: center;
  `;
 
-  const WrapToCenter = styled(SectionWrapper)`
+  const WrapToCenter = styled.div`
   border: 0;
-  justify-content: space-around;
   font-weight: 700;
   font-size: xxx-large;
-  align-items: start;
   color: rgb(128, 181, 242);
+  text-align: center;
 `
   const WrapToBottom = styled(SectionWrapper)`
   border: 0;
   height: auto;
   justify-content: space-around;
-  // align-items: end;
-  align-self: flex-end;
 `
   return (
     <article>
@@ -146,9 +142,9 @@ export function HomePage({
           <div style={{ marginTop: '15px' }}>
             {homepage.sec3.cards.map(v => <div>{v.text}</div>)}
           </div> */}
-          <WrapToBottom >
+          {/* <WrapToBottom >
             {homepage.sec1.cards.map(v => <ProfileCard profile={v} />)}
-          </WrapToBottom>
+          </WrapToBottom> */}
           <SectionWrapper >
             {homepage.sec4.cards.map(v => <PackkageCard worker={v} />)}
           </SectionWrapper>
