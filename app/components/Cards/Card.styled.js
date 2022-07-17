@@ -26,7 +26,7 @@ export const ProfileCardWrapper = styled.div`
     height: 10em;
     max-width: 10em;
     min-width: 6em;
-    border-radius: 0.5em;
+    // border-radius: 0.5em;
     position: relative;
     margin: 10px;
     display: flex;

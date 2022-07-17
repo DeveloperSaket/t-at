@@ -66,11 +66,11 @@ export function HomePage({
   //   repos,
   // };
 
-const ContentWrapper = styled.div`
+  const ContentWrapper = styled.div`
   padding: 0 16px;
 `;
 
-const SectionWrapper = styled.div`
+  const SectionWrapper = styled.div`
   width: 100%;
   border: solid 2px wheat;
   border-radius: 0.5em;
@@ -82,8 +82,11 @@ const SectionWrapper = styled.div`
   padding: 16px;
 `;
 
-const TopWrapper = styled(SectionWrapper)`
-  // border: 0;
+  const TopWrapper = styled(SectionWrapper)`
+  border: 0;
+  justify-content: space-around;
+  align-items: end;
+
   // position: absolute;
   // bottom: 1em
   // justify-content: space-around;
@@ -101,8 +104,13 @@ const TopWrapper = styled(SectionWrapper)`
           content="A React.js Boilerplate application homepage"
         />
       </Helmet>
-      <div className='main-div'>
-      {/* <Img src={Banner} alt="react-boilerplate - Logo" /> */}
+      <div>
+        <div className='main-div'>
+          <TopWrapper >
+            {homepage.sec1.cards.map(v => <ProfileCard profile={v} />)}
+          </TopWrapper>
+        </div>
+        {/* <Img src={Banner} alt="react-boilerplate - Logo" /> */}
         <ContentWrapper>
           {/* <div>
             {homepage.sec1.cards.map(v => <div>{v.text}</div>)}
