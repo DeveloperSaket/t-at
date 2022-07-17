@@ -39,6 +39,9 @@ import PackkageCard from "../../components/Cards/Card";
 import ProfileCard from "../../components/Cards/ProfileCard";
 import Img from '../../components/Header/Img';
 import Banner from './img/main.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 // import ActionCard from "../../components/Cards/ActionCard";
 
 const key = 'home';
@@ -82,15 +85,25 @@ export function HomePage({
   padding: 16px;
 `;
 
-  const TopWrapper = styled(SectionWrapper)`
-  border: 0;
-  justify-content: space-around;
-  align-items: end;
+  const WrapToTop = styled.div`
+  // display: flex;
+  background-color: rgb(128, 181, 242);
+  color: antiquewhite;
+  font-weight: 700;
+  text-align: center;
+ `;
 
-  // position: absolute;
-  // bottom: 1em
-  // justify-content: space-around;
-  // padding-top: 70vh
+  const WrapToCenter = styled(SectionWrapper)`
+  // border: 0;
+  justify-content: space-around;
+  align-items: start;
+`
+  const WrapToBottom = styled(SectionWrapper)`
+  // border: 0;
+  height: auto;
+  justify-content: space-around;
+  // align-items: end;
+  align-self: flex-end;
 `
   return (
     <article>
@@ -106,9 +119,18 @@ export function HomePage({
       </Helmet>
       <div>
         <div className='main-div'>
-          <TopWrapper >
+          <WrapToTop>
+            <abbr title="Call or WhatsApp US">
+              <FontAwesomeIcon icon={faPhone} style={{paddingRight: '2px'}}/> +91 9480-901-681
+              <FontAwesomeIcon icon={faWhatsapp} style={{padding: '0 2px 0 14px'}} /> +91 9480-901-681
+            </abbr>
+          </WrapToTop>
+          <WrapToCenter>
+            test
+          </WrapToCenter>
+          <WrapToBottom >
             {homepage.sec1.cards.map(v => <ProfileCard profile={v} />)}
-          </TopWrapper>
+          </WrapToBottom>
         </div>
         {/* <Img src={Banner} alt="react-boilerplate - Logo" /> */}
         <ContentWrapper>
@@ -121,9 +143,9 @@ export function HomePage({
           <div style={{ marginTop: '15px' }}>
             {homepage.sec3.cards.map(v => <div>{v.text}</div>)}
           </div> */}
-          <TopWrapper >
+          <WrapToBottom >
             {homepage.sec1.cards.map(v => <ProfileCard profile={v} />)}
-          </TopWrapper>
+          </WrapToBottom>
           <SectionWrapper >
             {homepage.sec4.cards.map(v => <PackkageCard worker={v} />)}
           </SectionWrapper>
