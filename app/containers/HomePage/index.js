@@ -88,17 +88,20 @@ export function HomePage({
   const WrapToTop = styled.div`
   background-color: rgb(128, 181, 242);
   color: antiquewhite;
-  font-weight: 700;
   text-align: center;
  `;
 
   const WrapToCenter = styled.div`
   border: 0;
-  font-weight: 700;
   font-size: xxx-large;
   color: rgb(128, 181, 242);
   text-align: center;
 `
+  const SiteDiscribe = styled.div`
+    font-size: small;
+    font-weight: 800;
+  `
+
   const WrapToBottom = styled(SectionWrapper)`
   border: 0;
   height: auto;
@@ -120,12 +123,14 @@ export function HomePage({
         <div className='main-div'>
           <WrapToTop>
             <abbr title="Call or WhatsApp US">
-              <FontAwesomeIcon icon={faPhone} style={{paddingRight: '2px'}}/> +91 9480-901-681
-              <FontAwesomeIcon icon={faWhatsapp} style={{padding: '0 2px 0 14px'}} /> +91 9480-901-681
+              <FontAwesomeIcon icon={faPhone} style={{ paddingRight: '2px' }} /> +91 9480-901-681
+              <FontAwesomeIcon icon={faWhatsapp} style={{ padding: '0 2px 0 14px' }} /> +91 9480-901-681
             </abbr>
           </WrapToTop>
           <WrapToCenter>
             Tour at
+            <br/>
+            <SiteDiscribe> Meghalaya | Sikkim | Arunachal Pradesh | Nagaland | Manipur | Assam </SiteDiscribe>
           </WrapToCenter>
           <WrapToBottom >
             {homepage.sec1.cards.map(v => <ProfileCard profile={v} />)}

@@ -23,12 +23,10 @@ export const CardWrapper = styled.div`
 
 export const ProfileCardWrapper = styled.div`
     width: 6em;
-    height: 10em;
+    height: 9em;
     max-width: 10em;
     min-width: 6em;
-    // border-radius: 0.5em;
     position: relative;
-    margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
