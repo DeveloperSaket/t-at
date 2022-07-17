@@ -37,6 +37,8 @@ import './index.css';
 import { homepage } from '../../Constant/homepage';
 import PackkageCard from "../../components/Cards/Card";
 import ProfileCard from "../../components/Cards/ProfileCard";
+import Img from '../../components/Header/Img';
+import Banner from './img/main.jpg';
 // import ActionCard from "../../components/Cards/ActionCard";
 
 const key = 'home';
@@ -64,21 +66,29 @@ export function HomePage({
   //   repos,
   // };
 
-  const ContentWrapper = styled.div`
-    padding: 0 16px;
-  `;
-  const SectionWrapper = styled.div`
-    width: 100%;
-    border: solid 2px wheat;
-    border-radius: 0.5em;
-    margin-bottom: 1em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 16px;
+const ContentWrapper = styled.div`
+  padding: 0 16px;
 `;
 
+const SectionWrapper = styled.div`
+  width: 100%;
+  border: solid 2px wheat;
+  border-radius: 0.5em;
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 16px;
+`;
+
+const TopWrapper = styled(SectionWrapper)`
+  // border: 0;
+  // position: absolute;
+  // bottom: 1em
+  // justify-content: space-around;
+  // padding-top: 70vh
+`
   return (
     <article>
       <Helmet>
@@ -92,8 +102,9 @@ export function HomePage({
         />
       </Helmet>
       <div className='main-div'>
+      {/* <Img src={Banner} alt="react-boilerplate - Logo" /> */}
         <ContentWrapper>
-          <div>
+          {/* <div>
             {homepage.sec1.cards.map(v => <div>{v.text}</div>)}
           </div>
           <div style={{ marginTop: '15px' }}>
@@ -101,10 +112,10 @@ export function HomePage({
           </div>
           <div style={{ marginTop: '15px' }}>
             {homepage.sec3.cards.map(v => <div>{v.text}</div>)}
-          </div>
-          <SectionWrapper >
+          </div> */}
+          <TopWrapper >
             {homepage.sec1.cards.map(v => <ProfileCard profile={v} />)}
-          </SectionWrapper>
+          </TopWrapper>
           <SectionWrapper >
             {homepage.sec4.cards.map(v => <PackkageCard worker={v} />)}
           </SectionWrapper>

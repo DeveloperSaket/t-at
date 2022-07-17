@@ -6,7 +6,7 @@ export const Img = styled.img`
     border-radius: 0.5em 0.5em 0 0;
 `
 export const ProfImg = styled.img`
-    width: 50%;
+    // width: 50%;
     height: 50%;
     border-radius:50%;
 `
@@ -19,6 +19,20 @@ export const CardWrapper = styled.div`
     border-radius: 0.5em;
     position: relative;
     margin: 10px;
+`;
+
+export const ProfileCardWrapper = styled.div`
+    width: 6em;
+    height: 10em;
+    max-width: 10em;
+    min-width: 6em;
+    border-radius: 0.5em;
+    position: relative;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 `;
 
 export const EmptyCardWrapper = styled(CardWrapper)`
